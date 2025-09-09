@@ -29,3 +29,20 @@
 //  printf("%f", avg);
 //  return 0;
 //}
+
+//task4
+//int main(void){
+//  char *name[20];
+//  scanf("%s", &name);
+//  printf("Hello %s", name);
+//  return 0;
+//}
+
+//task5
+int main() {
+  int year, currentyear = 2025, age;
+  scanf("year of birth - %d", &year);
+  age = currentyear - year;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+  printf("ur age - %d", age);
+  return 0;
+}

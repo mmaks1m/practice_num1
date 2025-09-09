@@ -2,19 +2,24 @@
 
 void task1(){
   int num;
+  printf("enter number:");
   scanf("%d", &num);
-  printf("%d", num);
+  printf("ur number - %d", num);
+}
+
+void task2(){
+  
 }
 
 int main() {
     int choice;
     
-    printf("Выберите задачу (1-25) или 0 для выхода: ");
+    printf("Choose number of exersize (1-25) or 0 to leave: ");
     scanf("%d", &choice);
     
     switch(choice) {
         case 1: task1(); break;
-        //case 2: task2(); break;
+        case 2: task2(); break;
         //case 3: task3(); break;
         //case 4: task4(); break;
         //case 5: task5(); break;
@@ -39,7 +44,7 @@ int main() {
         //case 24: task24(); break;
         //case 25: task25(); break;
         //case 0: printf("Выход...\n"); break;
-        default: printf("Неверный выбор!\n");
+        default: printf("Wrong choice!\n");
     }
     
     return 0;

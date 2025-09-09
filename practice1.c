@@ -40,9 +40,9 @@
 
 //task5
 int main() {
-  int year, currentyear = 2025, age;
-  scanf("year of birth - %d", &year);
-  age = currentyear - year;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
-  printf("ur age - %d", age);
+  int year;
+  printf("Year of birth: ");
+  scanf("%d", &year);
+  printf("ur age - %d", 2025-year);
   return 0;
 }

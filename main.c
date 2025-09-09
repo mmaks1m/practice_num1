@@ -85,6 +85,30 @@ void task9(){
   }
 }
 
+void task10 (){
+  int num1, num2;
+  printf("Enter ur numbers: ");
+  scanf("%d %d", &num1, &num2);
+  if (num1 == num2){
+    printf("Yes");
+  }
+  else{
+    printf("No");
+  }
+}
+
+void task11(){
+  for(int i = 1; i < 11; i++){
+    printf("%d ", i);
+  }
+}
+
+void task12(){
+  for(int i = 1; i != 10; i++){
+    printf("%d * 5 = %d\n", i, i*5);
+  }
+}
+
 int main() {
     int choice;
     
@@ -101,9 +125,9 @@ int main() {
         case 7: task7(); break;
         case 8: task8(); break;
         case 9: task9(); break;
-        //case 10: task10(); break;
-        //case 11: task11(); break;
-        //case 12: task12(); break;
+        case 10: task10(); break;
+        case 11: task11(); break;
+        case 12: task12(); break;
         //case 13: task13(); break;
         //case 14: task14(); break;
         //case 15: task15(); break;
